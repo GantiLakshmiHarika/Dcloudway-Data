@@ -1,0 +1,121 @@
+body {
+    background-image: url("https://example.com/path/to/hd.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: black;
+}
+
+ul.control {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.control li.buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul.control li.buttons:hover {
+    background-color: #e0e0e0;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid #333;
+    border-radius: 10px;
+}
+
+.video-container .controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.video-container .controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+div.website, div.content, div.search, div.load, div.mobile, div.social, div.feed, div.marketing, div.localization {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div.website h3, div.content h3, div.search h3, div.load h3, div.mobile h3, div.social h3, div.feed h3, div.marketing h3, div.localization h3 {
+    margin-top: 0;
+}
+
+div.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.image-container a {
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+div.image-container a img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+div.image-container a img:hover {
+    transform: scale(1.1);
+}
+
+div.image-container a {
+    text-decoration: none;
+}
+
+div.image-container a img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
